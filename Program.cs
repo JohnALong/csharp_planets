@@ -31,6 +31,7 @@ namespace lists
             // }
 
             Console.WriteLine(String.Join(", ", planetList));
+            Console.WriteLine(String.Join(", ", rockyPlanets));
             foreach (string rockyplanet in rockyPlanets) {
                 Console.WriteLine(rockyplanet);
             }
